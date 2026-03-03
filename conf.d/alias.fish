@@ -31,4 +31,4 @@ abbr -a laptop 'ssh laptop'
 # Docker 兼容
 abbr -a docker-compose 'docker compose'
 
-abbr -a wifi 'sudo -S systemctl restart hostapd.service <<< 0'
+abbr -a wifi 'echo 0 | sudo -S systemctl restart hostapd.service'
