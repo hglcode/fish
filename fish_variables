@@ -1,0 +1,14 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR ANDROID_HOME:/media/work/\x2eapp/android
+SETUVAR ANDROID_SDK_ROOT:/media/work/\x2eapp/android
+SETUVAR GO111MODULE:on
+SETUVAR GOBIN:/media/work/\x2eapp/go/bin
+SETUVAR --path GOPATH:/media/work/\x2eapp/go
+SETUVAR GOPROXY:https\x3a//goproxy\x2ecn
+SETUVAR PNPM_HOME:/home/l/\x2elocal/share/pnpm
+SETUVAR REPO_URL:https\x3a//mirrors\x2etuna\x2etsinghua\x2eedu\x2ecn/android\x2dsdk/
+SETUVAR __fish_initialized:4300
+SETUVAR fish_greeting:
+SETUVAR fish_prompt_pwd_dir_length:0
+SETUVAR fish_user_paths:/media/work/\x2eapp/android/build\x2dtools/latest\x1e/media/work/\x2eapp/android/cmdline\x2dtools/latest/bin\x1e/media/work/\x2eapp/android/emulator\x1e/media/work/\x2eapp/android/platform\x2dtools\x1e/media/work/\x2eapp/go/bin\x1e/home/l/\x2elocal/share/pnpm\x1e/media/work/\x2eapp/zlibrary\x1e/media/work/\x2eapp/zen\x1e/media/work/\x2eapp/xmind\x1e/media/work/\x2eapp/wps\x1e/media/work/\x2eapp/wechat\x1e/media/work/\x2eapp/thyh/bin\x1e/media/work/\x2eapp/ths\x1e/media/work/\x2eapp/thqh/bin\x1e/media/work/\x2eapp/tencentmeeting\x1e/media/work/\x2eapp/STM32CubeMX\x1e/media/work/\x2eapp/STM32CubeCLT\x1e/media/work/\x2eapp/sonarqube/bin\x1e/media/work/\x2eapp/sonar\x2dscanner/bin\x1e/media/work/\x2eapp/sila\x1e/media/work/\x2eapp/rootlesskit\x1e/media/work/\x2eapp/reqable\x1e/media/work/\x2eapp/qtcreator/bin\x1e/media/work/\x2eapp/qqmusic\x1e/media/work/\x2eapp/qq\x1e/media/work/\x2eapp/qemu/bin\x1e/media/work/\x2eapp/pot\x1e/media/work/\x2eapp/postman\x1e/media/work/\x2eapp/omap\x1e/media/work/\x2eapp/nrfconnect\x1e/media/work/\x2eapp/nrf\x2dcommand\x2dline\x2dtools/bin\x1e/media/work/\x2eapp/nordic/bin\x1e/media/work/\x2eapp/node/bin\x1e/media/work/\x2eapp/navicat\x1e/media/work/\x2eapp/miniforge/bin\x1e/media/work/\x2eapp/mindmaster\x1e/media/work/\x2eapp/localai\x1e/media/work/\x2eapp/lmstudio\x1e/media/work/\x2eapp/kugou\x1e/media/work/\x2eapp/jlink\x1e/media/work/\x2eapp/insomnia\x1e/media/work/\x2eapp/ida\x1e/media/work/\x2eapp/iar/bin\x1e/media/work/\x2eapp/hostapd\x1e/media/work/\x2eapp/hfd\x1e/media/work/\x2eapp/gradle/bin\x1e/media/work/\x2eapp/gitlab\x1e/media/work/\x2eapp/github\x1e/media/work/\x2eapp/ghidra\x1e/media/work/\x2eapp/edrawmax\x1e/media/work/\x2eapp/cutter\x1e/media/work/\x2eapp/chatbox\x1e/media/work/\x2eapp/brave\x1e/media/work/\x2eapp/binaryninja\x1e/media/work/\x2eapp/bcompare/bin\x1e/media/work/\x2eapp/attu\x1e/media/work/\x2eapp/armgcc/bin\x1e/media/work/\x2eapp/armgcc\x2dhf/bin\x1e/media/work/\x2eapp/armds/bin\x1e/media/work/\x2eapp/armclang/bin\x1e/media/work/\x2eapp/apktool\x1e/media/work/\x2eapp/apifox\x1e/media/work/\x2eapp/android
