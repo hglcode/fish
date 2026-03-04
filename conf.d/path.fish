@@ -1,4 +1,4 @@
-function app_paths --description "扫描应用目录并缓存路径"
+function __fish_app_paths --description "Scan application directory andd cache"
     # 候选目录列表
     set -l candidates \
         "$HOME/.local/app" \
@@ -47,7 +47,7 @@ end
 
 
 # 初始化：加载路径
-set -l paths (app_paths)
+set -l paths (__fish_app_paths)
 if test $status -eq 0
     for p in $paths
         fish_add_path "$p"
