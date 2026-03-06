@@ -1,7 +1,7 @@
 # 计算核心数（Fish 语法）
-set -l np (nproc)
-set -l lnp (math $np \* 2)
-set -l wnp (math $np \* 3)
+#set -l np (nproc)
+#set -l lnp (math $np \* 2)
+#set -l wnp (math $np \* 3)
 
 # ls 系列 - 使用缩写（abbr）更推荐，或保留 alias
 abbr -a ls 'ls --color=auto'
@@ -19,8 +19,6 @@ abbr -a df 'df -h'
 
 abbr -a grep 'grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv}'
 abbr -a ping 'ping -c 3'
-abbr -a 7z 7zz
-
 
 # 安全删除
 abbr -a rm 'trash-put'

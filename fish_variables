@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR ANDROID_HOME:/media/work/\x2eapp/android
 SETUVAR ANDROID_SDK_ROOT:/media/work/\x2eapp/android
+SETUVAR FZF_DEFAULT_COMMAND:fd\x20\x2d\x2dtype\x20f\x20\x2d\x2dno\x2dignore\x2dvcs
 SETUVAR GO111MODULE:on
 SETUVAR GOBIN:/media/work/\x2eapp/go/bin
 SETUVAR --path GOPATH:/media/work/\x2eapp/go
