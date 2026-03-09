@@ -1,7 +1,7 @@
 # 计算核心数（Fish 语法）
 set -l np (nproc)
-set -l lnp (math $np \* 2)
-set -l wnp (math $np \* 3)
+set -l wnp (math $np \* 2)
+set -l lnp (math $np \* 3)
 
 # ls 系列 - 使用缩写（abbr）更推荐，或保留 alias
 abbr -a ls 'ls --color=auto'
