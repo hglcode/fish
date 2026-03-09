@@ -33,4 +33,4 @@ abbr -a laptop 'ssh laptop'
 abbr -a docker-compose 'docker compose'
 
 abbr -a wifi 'echo 0 | sudo -S systemctl restart hostapd.service'
-abbr -a upgrade "echo 0 | sudo -S emerge --sync && echo 0 | sudo -S emerge --update --newuse --deep -j$wnp -l$lnp @world && echo 0 | sudo -S emerge --depclean"
+abbr -a upgrade "echo 0 | sudo -S emerge --sync; echo 0 | sudo -S emerge --update --newuse --deep -j$wnp -l$lnp @world; echo 0 | sudo -S emerge --depclean"
