@@ -29,7 +29,8 @@ abbr -a rm 'trash-put'
 # SSH
 abbr -a laptop 'ssh laptop'
 
-# Docker 兼容
+# Docker/podman 兼容
+abbr -a docker 'podman'
 abbr -a docker-compose 'docker compose'
 
 abbr -a wifi 'echo 0 | sudo -S systemctl restart hostapd.service'
