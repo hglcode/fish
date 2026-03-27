@@ -31,7 +31,7 @@ abbr -a laptop 'ssh laptop'
 
 # Docker/podman 兼容
 abbr -a docker 'podman'
-abbr -a docker-compose 'docker compose'
+abbr -a docker-compose 'podman-compose'
 
 abbr -a wifi 'echo 0 | sudo -S systemctl restart hostapd.service'
-abbr -a upgrade "echo 0 | sudo -S emerge --sync; echo 0 | sudo -S emerge --update --newuse --deep -j$wnp -l$lnp @world; echo 0 | sudo -S emerge --depclean"
+abbr -a upgrade "echo 0 | sudo -S emerge --sync; echo 0 | sudo -S emerge --update --newuse --deep -j$wnp -l$lnp @world && echo 0 | sudo -S emerge --depclean"
