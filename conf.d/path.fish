@@ -17,7 +17,7 @@ function __fish_app_paths --description "Scan application directory andd cache"
 
     # 缓存文件（使用系统启动时间作为 key）
     set -l btime (cat /proc/stat | grep btime | awk '{print $2}')
-    set -l cache_file "/tmp/fish_app_paths_$btime.cache"
+    set -l cache_file "/tmp/app_paths_$btime.cache"
 
     if test -f "$cache_file"
         cat "$cache_file"
