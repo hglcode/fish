@@ -30,8 +30,11 @@ abbr -a rm 'trash-put'
 abbr -a laptop 'ssh laptop'
 
 # Docker/podman 兼容
-abbr -a docker 'podman'
+abbr -a docker podman
 abbr -a docker-compose 'podman-compose'
+
+# claude
+abbr -a claude 'ccr code'
 
 abbr -a wifi 'echo 0 | sudo -S systemctl restart hostapd.service'
 abbr -a upgrade "echo 0 | sudo -S emerge --sync; echo 0 | sudo -S emerge --update --newuse --deep -j$wnp -l$lnp @world && echo 0 | sudo -S emerge --depclean"
