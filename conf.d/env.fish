@@ -22,7 +22,7 @@ set -U fish_user_paths $ANDROID_SDK_ROOT/build-tools/latest $ANDROID_SDK_ROOT/cm
 
 # ===================== 会话级变量（仅当前终端生效，无需持久化） =====================
 # podman
-set -x PODMAN_COMPOSE_PROVIDER podman-compose
+set -U PODMAN_COMPOSE_PROVIDER podman-compose
 
 # local-ai
 #set -x ADDRESS 0.0.0.0:8888
@@ -31,17 +31,21 @@ set -x PODMAN_COMPOSE_PROVIDER podman-compose
 #set -x LOCALAI_BACKENDS_STORE /media/work/dev/ai/projects/LocalAI/gallery
 
 # huggingface
-set -x HF_ENDPOINT https://hf-mirror.com
-set -x HF_HOME /media/work/dev/ai/hf
+set -U HF_ENDPOINT https://hf-mirror.com
+set -U HF_HOME /media/work/dev/ai/hf
 
 # electron
-set -x ELECTRON_MIRROR https://npmmirror.com/mirrors/electron/
+set -U ELECTRON_MIRROR https://npmmirror.com/mirrors/electron/
 
 # 编辑器
-set -x EDITOR /bin/vim
+set -U EDITOR /bin/vim
 
 # rust（如果需要启用，取消注释下面这行）
 # source "$HOME/.cargo/env"
 
 # docker（如果需要启用，取消注释下面这行）
-# set -x DOCKER_HOST "unix://$XDG_RUNTIME_DIR/docker.sock"
+# set -U DOCKER_HOST "unix://$XDG_RUNTIME_DIR/docker.sock"
+
+# claude code
+set -U ANTHROPIC_API_KEY dummy
+set -U ANTHROPIC_BASE_URL http://localhost:5999/anthropic
