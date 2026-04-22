@@ -35,7 +35,7 @@ set -x HF_ENDPOINT https://hf-mirror.com
 set -x HF_HOME /media/work/dev/ai/hf
 
 # electron
-set -x ELECTRON_MIRROR https://npmmirror.com/mirrors/electron/x
+#set -x ELECTRON_MIRROR https://npmmirror.com/mirrors/electron/
 
 # editor
 set -x EDITOR /bin/vim
