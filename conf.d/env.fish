@@ -49,3 +49,5 @@ set -x EDITOR /bin/vim
 # claude code
 set -x ANTHROPIC_API_KEY dummy
 set -x ANTHROPIC_BASE_URL http://localhost:5999/anthropic
+set -x API_TIMEOUT_MS 108000000
+set -x STREAM_API_TIMEOUT_MS 108000000
