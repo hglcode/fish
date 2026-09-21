@@ -7,7 +7,7 @@ set -x PNPM_HOME "$HOME/.local/share/pnpm"
 
 fish_add_path /media/work/.tool/arm/gcc/bin
 fish_add_path /media/work/.tool/lean
-fish_add_path $PNPM_HOME $PNPM_HOME/bin $HOME/.elan/bin
+fish_add_path $PNPM_HOME $PNPM_HOME/bin $HOME/.elan/bin $HOME/.local/bin
 
 # go（全局持久化）
 set -x GO111MODULE on
