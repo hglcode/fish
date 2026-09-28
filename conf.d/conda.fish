@@ -3,7 +3,7 @@ function __fish_conda_setup
     functions -e __fish_conda_setup 2>/dev/null
 
     # 2. 定义 conda/mamba 路径（和原脚本一致）
-    set -l home /media/work/.app/miniforge/bin
+    set -l home /media/work/.tool/miniforge/bin
     set -l sh fish  # 明确指定 shell 为 fish
     set -l conda "$home/conda"
     set -l mamba "$home/mamba"
@@ -22,4 +22,4 @@ function __fish_conda_setup
     set -e home sh conda mamba setup
 end
 
-__fish_conda_setup
+#__fish_conda_setup

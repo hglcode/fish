@@ -6,7 +6,7 @@ function __fish_app_paths --description "Scan application directory and cache wi
     set -l candidates \
         "$HOME/.local/app" \
         (path dirname (status filename))/../local/app \
-        /media/work/.app
+        /media/work/.tool
 
     set -l home
     for c in $candidates
