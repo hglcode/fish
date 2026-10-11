@@ -10,3 +10,5 @@ set -U fish_prompt_pwd_dir_length 0
 if not contains -- $HOME/.local/share/man $MANPATH
     set -gx MANPATH $HOME/.local/share/man $MANPATH
 end
+
+zoxide init fish | source
