@@ -22,6 +22,7 @@ abbr -a dl "aria2c -c -V -k1M -s$lnp -x16 -j$wnp --max-tries=3 --retry-wait=5"
 
 #abbr -a grep 'grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv}'
 abbr -a grep 'rg'
+abbr -a rgn 'rg --no-heading'
 abbr -a ping 'ping -c 3'
 
 # 安全删除

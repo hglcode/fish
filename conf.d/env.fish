@@ -6,9 +6,7 @@
 set -x PNPM_HOME "$HOME/.local/share/pnpm"
 set -x TOOL_HOME /media/work/.tool
 
-#fish_add_path $TOOL_HOME/arm/gcc/bin
-fish_add_path $TOOL_HOME/lean
-fish_add_path $PNPM_HOME $PNPM_HOME/bin $HOME/.elan/bin $HOME/.local/bin
+fish_add_path $TOOL_HOME/lean $PNPM_HOME $PNPM_HOME/bin  $HOME/.bun/bin $HOME/.elan/bin $HOME/.local/bin
 
 # go（全局持久化）
 set -x GO111MODULE on
@@ -54,4 +52,4 @@ set -x API_TIMEOUT_MS 108000000
 set -x STREAM_API_TIMEOUT_MS 108000000
 
 # java
-set -x JAVA_HOME /usr/lib64/openjdk-28
+set -x JAVA_HOME /usr/lib64/openjdk-27
