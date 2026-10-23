@@ -1,5 +1,0 @@
-# This file contains fish universal variable definitions.
-# VERSION: 3.0
-SETUVAR fish_greeting:
-SETUVAR fish_prompt_pwd_dir_length:0
-SETUVAR fish_user_paths:/media/work/\x2etool/llvm/bin\x1e/media/work/\x2etool/dist/bin\x1e/media/work/\x2etool/nordic/bin\x1e/media/work/\x2etool/node/bin\x1e/media/work/\x2etool/miniforge/bin\x1e/media/work/\x2etool/iar/bin\x1e/media/work/\x2etool/hfd\x1e/media/work/\x2etool/gradle/bin\x1e/media/work/\x2etool/github\x1e/media/work/\x2etool/arm\x1e/media/work/\x2etool/android\x1e/media/work/\x2etool/go/bin\x1e/media/work/\x2etool/android/build\x2dtools/latest\x1e/media/work/\x2etool/android/cmdline\x2dtools/latest/bin\x1e/media/work/\x2etool/android/emulator\x1e/media/work/\x2etool/android/platform\x2dtools\x1e/media/work/\x2eapp/go/bin\x1e/home/l/\x2elocal/share/pnpm\x1e/home/l/\x2elocal/share/pnpm/bin\x1e/home/l/\x2eelan/bin\x1e/home/l/\x2elocal/bin\x1e/media/work/\x2etool/lean\x1e/media/work/\x2etool/arm/gcc/bin

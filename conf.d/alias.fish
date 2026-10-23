@@ -4,23 +4,25 @@ set -l wnp (math $np \* 2)
 set -l lnp (math $np \* 3)
 
 # ls 系列 - 使用缩写（abbr）更推荐，或保留 alias
-abbr -a ls 'ls --color=auto'
-abbr -a ll 'ls -lh'
-abbr -a la 'ls -lAh'
-abbr -a l 'ls -lah'
-abbr -a lsd 'ls -Ad */'
-abbr -a lsf 'ls -fA'
+alias l 'eza -la'
+alias ls eza
+alias ll 'eza -l'
+alias la 'eza -lA'
+alias lsd 'eza -dA */'
+alias lsf 'eza -A --sort=none'
 abbr -a lsblk 'lsblk -o NAME,FSTYPE,RO,SIZE,LABEL,MOUNTPOINTS'
 
 # 工具缩写
-abbr -a cls clear
+abbr -a c clear
+abbr -a cg cargo
 abbr -a du 'du -ahd1'
 abbr -a df 'df -h'
 abbr -a 7z "7z -mmt$wnp"
 abbr -a dl "aria2c -c -V -k1M -s$lnp -x16 -j$wnp --max-tries=3 --retry-wait=5"
 
 #abbr -a grep 'grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv}'
-abbr -a grep 'grep --exclude-dir={.git}'
+abbr -a grep 'rg'
+abbr -a rgn 'rg --no-heading'
 abbr -a ping 'ping -c 3'
 
 # 安全删除
@@ -37,5 +39,6 @@ abbr -a docker-compose 'podman-compose'
 #abbr -a claude 'ccr code'
 #abbr -a cdc claude
 
-abbr -a wifi 'echo 0 | sudo -S systemctl restart hostapd.service'
-abbr -a upgrade "echo 0 | sudo -S emerge --sync; echo 0 | sudo -S emerge --update --newuse --deep -j$wnp -l$lnp @world && echo 0 | sudo -S emerge --depclean"
+abbr -a wf 'echo 0 | sudo -S systemctl restart hostapd.service'
+abbr -a upg "echo 0 | sudo -S emerge --sync; echo 0 | sudo -S emerge --update --newuse --deep -j$wnp -l$lnp @world && echo 0 | sudo -S emerge --depclean"
+abbr -a upk '/media/work/kernel/tools/update.sh'

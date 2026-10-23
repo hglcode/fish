@@ -12,3 +12,4 @@ if not contains -- $HOME/.local/share/man $MANPATH
 end
 
 zoxide init fish | source
+atuin init fish | source

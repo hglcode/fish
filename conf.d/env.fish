@@ -1,4 +1,3 @@
-# ~/.config/fish/conf.d/env.fish
 # 注意：fish 中用 $HOME 替代 ~，用 set -x/set -U 替代 export
 
 # ===================== 全局持久化变量（重启不丢失） =====================
@@ -6,9 +5,7 @@
 set -x PNPM_HOME "$HOME/.local/share/pnpm"
 set -x TOOL_HOME /media/work/.tool
 
-#fish_add_path $TOOL_HOME/arm/gcc/bin
-fish_add_path $TOOL_HOME/lean
-fish_add_path $PNPM_HOME $PNPM_HOME/bin $HOME/.elan/bin $HOME/.local/bin
+fish_add_path $TOOL_HOME/lean $PNPM_HOME $PNPM_HOME/bin  $HOME/.bun/bin $HOME/.elan/bin $HOME/.local/bin
 
 # go（全局持久化）
 set -x GO111MODULE on

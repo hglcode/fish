@@ -1,4 +1,4 @@
-function __fish_app_paths --description "Scan application directory and cache with filtering support"
+function __fish_tool_paths --description "Scan application directory and cache with filtering support"
     # 获取过滤参数（要排除的目录名）
     set -l exclude_dirs $argv
 
@@ -84,7 +84,7 @@ function __fish_app_paths --description "Scan application directory and cache wi
 end
 
 # 初始化：加载路径（使用过滤）
-set -l paths (__fish_app_paths)
+set -l paths (__fish_tool_paths)
 if test $status -eq 0
     for p in $paths
         fish_add_path "$p"
