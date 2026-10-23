@@ -17,8 +17,9 @@ abbr -a c clear
 abbr -a cg cargo
 abbr -a du 'du -ahd1'
 abbr -a df 'df -h'
+abbr -a g git
 abbr -a 7z "7z -mmt$wnp"
-abbr -a dl "aria2c -c -V -k1M -s$lnp -x16 -j$wnp --max-tries=3 --retry-wait=5"
+abbr -a d "aria2c -c -V -k1M -s$lnp -x16 -j$wnp --max-tries=3 --retry-wait=5"
 
 #abbr -a grep 'grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv}'
 abbr -a grep 'rg'
