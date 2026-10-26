@@ -9,21 +9,27 @@ alias ls eza
 alias ll 'eza -l'
 alias la 'eza -lA'
 alias lsd 'eza -dA */'
-alias lsf 'eza -A --sort=none'
+alias lsf 'eza -af'
 abbr -a lsblk 'lsblk -o NAME,FSTYPE,RO,SIZE,LABEL,MOUNTPOINTS'
 
 # 工具缩写
+abbr -a b bash
 abbr -a c clear
 abbr -a cg cargo
+abbr -a d "aria2c -c -V -k1M -s$lnp -x16 -j$wnp --max-tries=3 --retry-wait=5"
 abbr -a du 'du -ahd1'
 abbr -a df 'df -h'
+abbr -a em emerge
 abbr -a g git
+abbr -a h htop
+abbr -a j just
 abbr -a 7z "7z -mmt$wnp"
-abbr -a d "aria2c -c -V -k1M -s$lnp -x16 -j$wnp --max-tries=3 --retry-wait=5"
-
-#abbr -a grep 'grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn,.idea,.tox,.venv,venv}'
 abbr -a grep 'rg'
+abbr -a sdf 'sd -F'
+abbr -a sdp 'sd -p'
+abbr -a rgf 'rg -F'
 abbr -a rgn 'rg --no-heading'
+abbr -a rgnf 'rg --no-heading -F'
 abbr -a ping 'ping -c 3'
 
 # 安全删除
