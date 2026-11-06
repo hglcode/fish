@@ -1,4 +1,4 @@
-function dl
+function dl --wraps aria2c
     set -l np (nproc)
     set -l lnp (math "$np * 2")
     set -l wnp (math "$np * 3")

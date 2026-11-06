@@ -1,4 +1,4 @@
-function ff
+function ff --wraps fzf
     set -l dir .
 
     if set -q argv[1] && test -d "$argv[1]"

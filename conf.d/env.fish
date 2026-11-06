@@ -19,7 +19,10 @@ set -x ANDROID_HOME $TOOL_HOME/android
 set -x ANDROID_SDK_ROOT $ANDROID_HOME
 set -x REPO_URL https://mirrors.tuna.tsinghua.edu.cn/android-sdk/
 # 把 android 相关路径加入 PATH（持久化）
-fish_add_path $ANDROID_SDK_ROOT/build-tools/latest $ANDROID_SDK_ROOT/cmdline-tools/latest/bin $ANDROID_SDK_ROOT/emulator $ANDROID_SDK_ROOT/platform-tools
+fish_add_path "$ANDROID_SDK_ROOT/build-tools/$(ls -t "$ANDROID_SDK_ROOT/build-tools" | head -1)"
+fish_add_path "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin"
+fish_add_path "$ANDROID_SDK_ROOT/emulator"
+fish_add_path "$ANDROID_SDK_ROOT/platform-tools"
 
 # ===================== 会话级变量（仅当前终端生效，无需持久化） =====================
 # podman
